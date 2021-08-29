@@ -10,11 +10,18 @@ body{
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(34,193,195,1) 19%, rgba(224,219,255,1) 100%, rgba(34,193,195,1) 100%, rgba(37,0,255,1) 100%, rgba(34,193,195,1) 100%, rgba(255,255,255,1) 100%);}
     /* Navigation bar */
 nav{
-    height: 75px;
+    height: 80px;
     width: 100%;
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: white;
+
 }
 .vilnius-logo img{
     display: flex;
@@ -38,7 +45,7 @@ nav{
     transition: all .5s;
 }
 .nav-list li a{
-    color: white;
+    color: black;
     font-size: 20px;
 }
 .nav-list li a.active, .nav-list li a:hover{
@@ -66,7 +73,7 @@ nav{
 
 /* Main Content */
 .main-container{
-    padding: 50px 10px
+    padding: 80px 10px
 }
 .left-container{
     text-align: center;
@@ -212,7 +219,7 @@ footer{
 }
 
 .icon ul li{
-    display: inline;
+    display: inline-block;
     padding-left:25px;
     font-size: 40px;
 }
@@ -286,6 +293,9 @@ textarea::placeholder{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .vilnius-photo img{
+        width: 600px;
+    }
 }
 @media (min-width:1281px){
     .main-container{
@@ -297,7 +307,7 @@ textarea::placeholder{
       width: 50%;
     }
     .vilnius-photo img{
-        width: 600px;
+        margin-top: 20px;
     }
     .facts-cards{
         display: grid;
