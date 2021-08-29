@@ -297,6 +297,9 @@ textarea::placeholder{
     .nav-list li a.activem, .nav-list li a:hover{
         color: blue;
     }
+    .hamburger-btn{
+        display: none;
+    }
     .facts-cards{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -329,13 +332,11 @@ textarea::placeholder{
     .facts-cards{
         display: grid;
         grid-template-columns:repeat(4,1fr);
-}
+    }
     .vilnius-logo{
         margin-left: 25px;
-    }
-    .hamburger-btn{
-        display: none;
     }
     .nav-list{
         margin-right: 100px;
     }
+}
