@@ -284,14 +284,14 @@ textarea::placeholder{
         background: none;
         float: right;
         text-align: right;
-        margin-right: 25px;
+       
         transition: none;
     }
     .nav-list li{
         display: inline-block;
         opacity: 1;
         line-height: 100px;
-        margin: 0 20px;
+        margin: 0 10px;
         transition: none;
     }
     .nav-list li a.activem, .nav-list li a:hover{
@@ -338,5 +338,8 @@ textarea::placeholder{
     }
     .nav-list{
         margin-right: 100px;
+    }
+    .nav-list li a{
+        padding-right: 25px;
     }
 }
