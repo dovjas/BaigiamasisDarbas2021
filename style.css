@@ -24,7 +24,7 @@ nav{
 }
 .vilnius-logo img{
     display: flex;
-    width: 200px;
+    width: 150px;
     margin-left: 20px;
 }
 .nav-list{
@@ -299,6 +299,10 @@ textarea::placeholder{
     }
     .hamburger-btn{
         display: none;
+    }
+    .vilnius-logo img{
+        display: flex;
+        width: 200px;
     }
     .facts-cards{
         display: grid;
