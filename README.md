@@ -1,3 +1,3 @@
-# Website
+# VIGI 7, THESIS: Website project
 
-My first website: responsive, built using HTML and CSS.
+My first website project responsive, built using HTML and CSS.
