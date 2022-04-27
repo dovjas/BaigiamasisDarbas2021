@@ -1,2 +1,2 @@
 # BaigiamasisDarbas2021
-My first website, built using HTML and CSS
+My firs website, responsive, built using HTML and CSS
